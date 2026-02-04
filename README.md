@@ -1,18 +1,40 @@
 
 # Auditar proyectos de PSG2-2526 con Bluejay.
 
-## 1. Crear y configurar el repositorio.
+Vídeo explicativo para hacer todos los pasos correctamente. SE RECOMIENDA VERLO COMPLETO Y DETENIDAMENTE. [Enlace]()
 
-**1.1. Crear un repositorio en GitHub usando la actividad de GitHub Classroom correspondiente.**
+## 0. Guía de cómo rellenar las X e Y
+En los siguientes pasos se deberá sustituir las letras X e Y por un número. Aquí se explica esa como hacer esa sustitución 
+- Cómo rellenar las X e Y.
+  > Por ejemplo, el grupo 4 del Laboratorio 5:
+  > X = 4
+  > Y = 5
+  >```yaml
+  >name: 'PSG2-2526-G5-54'
+  >owner: 'L5'
+  >teamId: '54'
+  >```
+  > Por ejemplo, el grupo 1 del Laboratorio 2:
+  > X = 1
+  > Y = 2
+  >```yaml
+  >name: 'PSG2-2526-G2-21'
+  >owner: 'L2'
+  >teamId: '21'
+  >```
+
+## 1. Crear y configurar el repositorio
+
+**Crear un repositorio en GitHub usando la actividad de GitHub Classroom correspondiente.**
 
 - Actividad disponible en ENLACE
 - Selecciona tu UVUS.
-- Selecciona tu grupo `GX-XY` o créalo si aún no existe.
+- Selecciona tu grupo `GX-XY` o créalo si aún no existe (Sustituye X e Y siguiendo el paso 0).
 - Acepta el assignment para poder acceder al repositorio de GitHub.
 
 ## 2. Crear el workspace en ZenHub
 - Crea un nuevo workspace sobre el repositorio de GitHub abriendo la extensión de ZenHub y seleccionando la organización `gii-is-psg2`.
-- Usa el nombre PSG2-2526-GX-XY para el nuevo workspace, sustituyendo las X e Y igual que en pasos anteriores (por ejemplo: `PSG2-2425-G5-54`).
+- Usa el nombre PSG2-2526-GX-XY (Sustituye X e Y siguiendo el paso 0) para el nuevo workspace.
 - Configura el workspace como `private` y asigna el repositorio GitHub al workspace creado (asegúrate de seleccionar la organización `gii-is-psg2`).
 - Añade todos los miembros del grupo al workspace (antes deben haber accedido a la actividad de GitHub Classroom).
 - Modificar los pipelines para que sigan la siguiente estructura **OBLIGATORIAMENTE:**
@@ -21,8 +43,8 @@
   - Renombra la pipeline `Review/QA` a `In Review` (case sensitive).
 - Como resultado tendremos un tablero donde las columnas principales que utilizaremos serán: `Todo, In Progress, In Review, Done` (case sensitive).
 
-## 3. En la rama main modificar el archivo `info.yml`.
-Vídeo explicativo para hacer los pasos 3 y 4 correctamente. Se recomienda verlo completo y detenidamente. [Enlace]()
+## 3. Modificar el archivo info.yml
+En la rama main del repositorio modificar el archivo `info.yml`.
 
 info.yml:
 ```yaml
@@ -62,14 +84,7 @@ project:
       githubUsername: 'alfedu'
 ```
 
-- Rellenar las X,Y.
-    > Por ejemplo, el grupo 54 del Laboratorio 5:
-    >```yaml
-    >name: 'PSG2-2526-G5-54'
-    >owner: 'L5'
-    >teamId: '54'
-    >```
-
+- Sustituye X e Y siguiendo el paso 0.
 - Sustituir los datos de cada memberN por los del miembro real.
 - Si el número de miembros es menor de los que hay en la plantilla, eliminar los últimos que sobren (por ejemplo, si son 5 miembros, eliminar el bloque completo de `member6`)
 - Modificar la cadena de `notifications.email` para que contengan sólo los correos de todos los miembros separados por comas y sin espacios.
@@ -77,7 +92,7 @@ project:
 <img width="1872" height="989" alt="Tablero de ZenHub" src="https://github.com/user-attachments/assets/bf7b1cd0-ac2a-460e-ae30-aac27dba6d03" />
 
 
-## 3. Unir el proyecto a la asignatura auditada por Bluejay
+## 4. Unir el proyecto a la asignatura auditada por Bluejay
 
 - Accede a [join.bluejay.governify.io](https://join.bluejay.governify.io).
 - Añade la **URL del repositorio** de GitHub.
