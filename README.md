@@ -7,7 +7,7 @@ Vídeo explicativo para hacer todos los pasos correctamente. SE RECOMIENDA VERLO
 En los siguientes pasos se deberá sustituir las letras X e Y por un número. Aquí se explica esa como hacer esa sustitución 
 - Cómo rellenar las X e Y.
   > Por ejemplo, el grupo 4 del Laboratorio 5:
-  > X = 4
+  > X = 4,
   > Y = 5
   >```yaml
   >name: 'PSG2-2526-G5-54'
@@ -15,7 +15,7 @@ En los siguientes pasos se deberá sustituir las letras X e Y por un número. Aq
   >teamId: '54'
   >```
   > Por ejemplo, el grupo 1 del Laboratorio 2:
-  > X = 1
+  > X = 1,
   > Y = 2
   >```yaml
   >name: 'PSG2-2526-G2-21'
