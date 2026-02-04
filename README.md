@@ -10,7 +10,19 @@
 - Selecciona tu grupo `GX-XY` o créalo si aún no existe.
 - Acepta el assignment para poder acceder al repositorio de GitHub.
 
-**1.2. En la rama main modificar el archivo `info.yml`.**
+## 2. Crear el workspace en ZenHub
+- Crea un nuevo workspace sobre el repositorio de GitHub abriendo la extensión de ZenHub y seleccionando la organización `gii-is-psg2`.
+- Usa el nombre PSG2-2526-GX-XY para el nuevo workspace, sustituyendo las X e Y igual que en pasos anteriores (por ejemplo: `PSG2-2425-G5-54`).
+- Configura el workspace como `private` y asigna el repositorio GitHub al workspace creado (asegúrate de seleccionar la organización `gii-is-psg2`).
+- Añade todos los miembros del grupo al workspace (antes deben haber accedido a la actividad de GitHub Classroom).
+- Modificar los pipelines para que sigan la siguiente estructura **OBLIGATORIAMENTE:**
+  - Elimina las pipelines denominadas `Icebox` y `Product Backlog`.
+  - Renombra la pipeline `Sprint Backlog` a `Todo` (case sensitive).
+  - Renombra la pipeline `Review/QA` a `In Review` (case sensitive).
+- Como resultado tendremos un tablero donde las columnas principales que utilizaremos serán: `Todo, In Progress, In Review, Done` (case sensitive).
+
+## 3. En la rama main modificar el archivo `info.yml`.
+Vídeo explicativo para hacer los pasos 3 y 4 correctamente. Se recomienda verlo completo y detenidamente. [Enlace]()
 
 info.yml:
 ```yaml
@@ -61,17 +73,9 @@ project:
 - Sustituir los datos de cada memberN por los del miembro real.
 - Si el número de miembros es menor de los que hay en la plantilla, eliminar los últimos que sobren (por ejemplo, si son 5 miembros, eliminar el bloque completo de `member6`)
 - Modificar la cadena de `notifications.email` para que contengan sólo los correos de todos los miembros separados por comas y sin espacios.
+- Sustituir workspaceId por la id del workspace de zenhub (Necesario haber completado el paso 2). La id es una cadena de caracteres aleatorios que se encuentra en la url al acceder al tablero de zenhub desde tu repositorio. Por ejemplo si mi url al acceder al tablero es https://github.com/gii-is-psg2/psg2-2526-zenhub-test/issues#workspaces/psg2-2526-zenhub-test-695b53b8e17454001c0787b3/board, mi workspaceId sería **695b53b8e17454001c0787b3**. Siempre empezando tras el último guión y terminando antes de /board. Imágen de ejemplo de como debería quedar el tablero de zenhub y de donde se saca el workspaceId:
+<img width="1872" height="989" alt="Tablero de ZenHub" src="https://github.com/user-attachments/assets/bf7b1cd0-ac2a-460e-ae30-aac27dba6d03" />
 
-## 2. Crear el workspace en ZenHub
-- Crea un nuevo workspace sobre el repositorio de GitHub abriendo la extensión de ZenHub y seleccionando la organización `gii-is-psg2`.
-- Usa el nombre PSG2-2526-GX-XY para el nuevo workspace, sustituyendo las X e Y igual que en pasos anteriores (por ejemplo: `PSG2-2425-G5-54`).
-- Configura el workspace como `private` y asigna el repositorio GitHub al workspace creado (asegúrate de seleccionar la organización `gii-is-psg2`).
-- Añade todos los miembros del grupo al workspace (antes deben haber accedido a la actividad de GitHub Classroom).
-- Modificar los pipelines para que sigan la siguiente estructura **OBLIGATORIAMENTE:**
-  - Elimina las pipelines denominadas `Icebox` y `Product Backlog`.
-  - Renombra la pipeline `Sprint Backlog` a `Todo` (case sensitive).
-  - Renombra la pipeline `Review/QA` a `In Review` (case sensitive).
-- Como resultado tendremos un tablero donde las columnas principales que utilizaremos serán: `Todo, In Progress, In Review, Done` (case sensitive).
 
 ## 3. Unir el proyecto a la asignatura auditada por Bluejay
 
