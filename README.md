@@ -4,7 +4,7 @@
 Vídeo explicativo para hacer todos los pasos correctamente. SE RECOMIENDA VERLO COMPLETO Y DETENIDAMENTE. [Enlace]()
 
 ## 0. Guía de cómo rellenar las X e Y
-En los siguientes pasos se deberá sustituir las letras X e Y por un número. Aquí se explica esa como hacer esa sustitución 
+En los siguientes pasos se deberá sustituir las letras X e Y por un número. Aquí se explica como hacer esa sustitución 
 - Cómo rellenar las X e Y.
   > Por ejemplo, el grupo 4 del Laboratorio 5:
   >
