@@ -18,7 +18,9 @@ project:
   name: 'PSG2-2526-GX-XY'
   owner: 'LX'
   teamId: 'XY'
-  identities: {}
+  identities:
+    zenhub:
+      workspaceId: "remplaza_este_texto_por_la_id_de_tu_workspace_de_zenhub"
   notifications:
     email: 'josemgarcia@us.es,japarejo@us.es,aruiz@us.es,cmuller@us.es,macuna@us.es,amarquez6@us.es'
   members:
