@@ -1,7 +1,7 @@
 
 # Auditar proyectos de PSG2-2526 con Bluejay.
 
-Vídeo explicativo para hacer todos los pasos correctamente. SE RECOMIENDA VERLO COMPLETO Y DETENIDAMENTE. [Enlace]()
+Vídeo explicativo para hacer todos los pasos correctamente. SE RECOMIENDA VERLO COMPLETO Y DETENIDAMENTE. [Enlace](https://www.youtube.com/watch?v=Ygjj3RuBc4w)
 
 ## 0. Guía de cómo rellenar las X e Y
 En los siguientes pasos se deberá sustituir las letras X e Y por un número correspondiente al grupo del trabajo. Aquí se explica cómo hacer esa sustitución:
